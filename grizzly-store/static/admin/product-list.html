@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin - Add Product</title>
+
+        <!-- Adding Bootstrap from CDN -->
+
+            <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+            <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+            <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <!-- Including CSS and JS files -->
+        <link rel="stylesheet" href="./styles/main.css"/>
+        <script src="./scripts/main.js"></script>
+        
+        <!-- Including Favicons-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        </head>
+        <body>
+            <header>
+                <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            
+                            <div class="navbar-header">
+                               <!-- <a class="navbar-brand" href="#">WebSiteName</a> -->
+                              <a  class="navbar-brand" href="#"> <img src="./images/loginlogo.jpg" id="navbar-logo"></a>
+                            </div>
+                                <ul class="nav navbar-nav">
+                                    <li>
+                                        <a><input type="text" placeholder="Search"> 
+                                            <span class="fa fa-search search-icon"></span>
+                                        </a>
+                                    </li> 
+                                    <li>
+                                        <i class="fa fa-bell" aria-hidden="true"></i>
+                                    </li>
+                                    <li>
+                                        <p> Welcome, Admin Name ..</p>
+                                    </li>
+                                    <li>
+                                        <input type="submit" class="btn" value="logout">
+                                    </li>
+                                </ul>
+                        </div>
+                </nav>
+            </header>
+
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-md-2">
+                            <section>
+                                    <div class="row">
+                                            <h4 style="float: left;">PROFILE</h4>
+                                            <h6 style="float: right;">Edit</h6>
+                                    </div>
+                                    <br>
+                                    <img src="./images/profilepic.png" style="width: 100%;">
+
+                                    <div class="prof-info">
+                                            <h5 ><b>Helen Cho</b></h5>
+                                            <h6 ><b>ID</b></h6>
+                                            <h6 >GRZLY17295</h6>
+        
+                                            <h6 ><b>Designation</b></h6>
+                                            <h6 >Sr. Admin</h6>
+        
+                                            <h6 ><b>Office</b></h6>
+                                            <h6 >NYC, NY, USA</h6>
+                                    </div>
+                                </section>
+                
+                    </div>
+
+                    <div class="col-md-10">
+                            <nav class="navbar navbar-default">
+                                    <div class="container-fluid">
+                                      <ul class="nav navbar-nav">
+                                        <li><a href="#">PRODUCTS</a></li>
+                                        <li><a href="#">VENDORS</a></li>
+                                      </ul>
+                                    </div>
+                            </nav>
+                            
+                            <nav class="navbar navbar-default">
+                                    <div class="container-fluid">
+                                      <ul class="nav navbar-nav">
+                                        <li><select>
+                                                <option value="volvo">Volvo</option>
+                                                <option value="saab">Saab</option>
+                                                <option value="mercedes">Mercedes</option>
+                                                <option value="audi">Audi</option>
+                                              </select></li>
+                                        <li><input type="text" placeholder="Category Name"></li>
+                                        <li><select>
+                                                <option value="volvo">Sort BY</option>
+                                                <option value="saab">Saab</option>
+                                                <option value="mercedes">Mercedes</option>
+                                                <option value="audi">Audi</option>
+                                              </select></li>
+                                        <li><button class="btn btn-default"> Add Product</button></li>
+                                      </ul>
+                                    </div>
+                            </nav>
+
+                        <table style="width: 100%;">
+                            <tr>
+                                <th>
+                                    Products List
+                                </th>
+                                <th>Brand</th> 
+                                <th>Category</th>
+                                <th>Rating</th>
+                                <th></th>
+                            </tr>
+                                <tr>
+                                    <td>
+                                    <input type="checkbox"> Trimmer
+                                    </td>
+                                    <td>Philips</td>
+                                    <td>Personal Care</td>
+                                    <td>4.6</td>
+                                    <td>
+                                        <button class="btn btn-default">View</button>
+                                        <button class="btn btn-default">Block</button>
+                                        <button class="btn btn-default">Remove</button>            
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>
+                                    <input type="checkbox"> Trimmer
+                                </td>
+                                <td>
+                                    Philips
+                                </td>
+                                <td>
+                                    Personal Care
+                                </td>
+                                <td>
+                                    4.6
+                                </td>
+                                <td>
+                                    <button class="btn btn-default">View</button>
+                                    <button class="btn btn-default">Block</button>
+                                    <button class="btn btn-default">Remove</button>
+                                    
+                                </td>
+                            </tr>
+                            <tr>                    
+                                <td>
+                                    <input type="checkbox"> Trimmer
+                                </td>
+                                <td>Philips</td>
+                                <td>Personal Care</td>
+                                <td>4.6</td>
+                                <td>
+                                    <button class="btn btn-default">View</button>
+                                    <button class="btn btn-default">Block</button>
+                                    <button class="btn btn-default">Remove</button>                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"> Trimmer</td>
+                                <td>Philips</td>
+                                <td> Personal Care </td>
+                                <td> 4.6 </td>
+                                <td>
+                                    <button class="btn btn-default">View</button>
+                                    <button class="btn btn-default">Block</button>
+                                    <button class="btn btn-default">Remove</button>                            
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox"> Trimmer
+                                </td>
+                                <td>
+                                    Philips
+                                </td>
+                                <td>
+                                    Personal Care
+                                </td>
+                                <td>
+                                    4.6
+                                </td>
+                                <td>
+                                    <button class="btn btn-default">View</button>
+                                    <button class="btn btn-default">Block</button>
+                                    <button class="btn btn-default">Remove</button>
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>                        

@@ -46,3 +46,34 @@
 .prof-info{
     text-align: center;
 }
+
+.pro-ven-heading {
+    color: #ffff;
+    padding: 10px;
+    background-color: #808080;
+}
+
+th, td {
+    border: 1px solid #808080;
+  }
+
+th, td {
+    text-align: center;
+}
+
+th {
+    border-top: none;
+}
+
+th:first-child, td:first-child {
+    border-left:none;
+}
+
+th:last-child, td:last-child{
+    border-right: none;
+}
+
+tr:last-child td{
+    border-bottom: none;
+}
+  
