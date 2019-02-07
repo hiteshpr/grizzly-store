@@ -1,3 +1,4 @@
+
 #logo {
     display: block;
     width: 35%;
@@ -6,4 +7,42 @@
 
 .image {
     margin-top: 10%;
+}
+
+#username, #loginBtn {
+    display: block;
+    margin: auto auto;
+    border-radius: 15px;
+}
+
+#username {
+    padding-left: 10px;
+    background-color: #d4d2d2;
+}
+
+#loginBtn {
+    width: 10%;
+}
+#username:focus {
+    outline: none;
+  }
+
+#navbar-logo {
+    width: 8%;
+}
+
+.navbar-brand {
+    padding-top: 0px;
+}
+
+.search-icon {
+    float: right;
+    margin-right: 6px;
+    margin-top: -20px;
+    position: relative;
+    z-index: 2;
+}
+
+.prof-info{
+    text-align: center;
 }
